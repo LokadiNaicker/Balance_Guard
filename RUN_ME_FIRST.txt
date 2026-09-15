@@ -1,0 +1,38 @@
+BALANCEGUARD - WINDOWS QUICK START
+================================
+
+EASIEST METHOD
+
+1. Extract the ZIP file first. Do not run it from inside the ZIP preview.
+2. Open the extracted folder.
+3. Double-click: run_balanceguard.bat
+4. Leave the black command window open while using the application.
+5. Your browser should open automatically at:
+   http://127.0.0.1:8502
+
+IF THE BAT FILE DOES NOT WORK
+
+1. Confirm that Python 3 is installed from https://www.python.org/downloads/
+2. Open the extracted BalanceGuard folder.
+3. Click the File Explorer address bar, type cmd, and press Enter.
+4. In the Command Prompt window, enter:
+
+   py app.py
+
+5. If Windows says that "py" is not recognised, enter:
+
+   python app.py
+
+6. Open http://127.0.0.1:8502 in Chrome or Edge.
+
+TO STOP THE APPLICATION
+
+Close the black server window, or click it and press Ctrl+C.
+
+TO RUN THE TESTS
+
+Open Command Prompt in the folder and enter:
+
+   py -m unittest discover -s tests -v
+
+All seven tests should display "ok" followed by "OK".

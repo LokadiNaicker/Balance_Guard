@@ -1,0 +1,311 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>BalanceGuard</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <div>
+      <p class="eyebrow">PPB DIGITAL MONEY TOOL</p>
+      <h1>BalanceGuard</h1>
+      <p class="lead">See what is safe to spend after the rest of the month is protected.</p>
+    </div>
+    <div class="shield" aria-hidden="true">BG</div>
+  </header>
+
+  <main>
+    <section class="metrics" aria-label="Statement summary">
+      <article>
+        <span>Income and refunds</span>
+        <strong id="inflows">Loading</strong>
+      </article>
+      <article>
+        <span>Total outflows</span>
+        <strong id="outflows">Loading</strong>
+      </article>
+      <article>
+        <span>Net cash flow</span>
+        <strong id="net">Loading</strong>
+      </article>
+      <article class="danger">
+        <span>Closing balance</span>
+        <strong id="closing">Loading</strong>
+      </article>
+    </section>
+
+    <section class="headline-alert" aria-label="First actionable warning">
+      <div>
+        <p class="eyebrow">FIRST STOP AND REVIEW</p>
+        <strong id="headline-date">Loading</strong>
+      </div>
+      <div>
+        <strong id="headline-lead">Loading</strong>
+        <span>of warning before the account crossed zero</span>
+      </div>
+      <div>
+        <strong id="headline-safe">Loading</strong>
+        <span>safe to spend at the first intervention</span>
+      </div>
+    </section>
+
+    <section class="panel notification-panel" aria-label="Monthly funds notifications">
+      <div class="panel-heading">
+        <div>
+          <p class="eyebrow">PROACTIVE BALANCE NOTIFICATIONS</p>
+          <h2>One message at each first threshold crossing</h2>
+        </div>
+        <p class="rule">
+          Opening balance + confirmed salary:
+          <strong id="monthly-funds">Loading</strong>
+        </p>
+      </div>
+
+      <div class="funds-progress" aria-label="Percentage of monthly funds used">
+        <div id="funds-progress-bar"></div>
+      </div>
+
+      <p class="progress-caption">
+        <strong id="funds-used">Loading</strong>
+        of confirmed monthly funds used by statement close.
+        The visual bar is capped at 100%.
+      </p>
+
+      <div class="table-wrap">
+        <table class="notification-table">
+          <thead>
+            <tr>
+              <th>Level</th>
+              <th>First crossed</th>
+              <th>Observed use</th>
+              <th>Customer message</th>
+            </tr>
+          </thead>
+          <tbody id="notifications"></tbody>
+        </table>
+      </div>
+
+      <div class="credit-gate">
+        <div>
+          <p class="eyebrow">95% RESPONSIBLE-CREDIT GATE</p>
+          <h3>
+            Support first. Credit only after customer choice and affordability.
+          </h3>
+          <p>
+            The 95% alert never auto-approves a card or limit increase.
+            Use these demo inputs to show the rule.
+          </p>
+        </div>
+
+        <div class="credit-controls">
+          <label class="check-row">
+            <input id="credit-consent" type="checkbox">
+            Customer asks to review credit options
+          </label>
+
+          <label class="check-row">
+            <input id="affordability" type="checkbox">
+            Affordability assessment passed
+          </label>
+
+          <label>
+            Card status
+            <select id="card-status">
+              <option value="unknown">Unknown</option>
+              <option value="existing">Existing cardholder</option>
+              <option value="new">No existing card</option>
+            </select>
+          </label>
+
+          <button id="credit-button" type="button">
+            Evaluate responsible next step
+          </button>
+
+          <div id="credit-decision" class="credit-decision"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="split">
+      <article class="panel">
+        <div class="panel-heading">
+          <div>
+            <p class="eyebrow">MONTH OVERVIEW</p>
+            <h2>Balance fell below zero on 29 August</h2>
+          </div>
+          <span class="legend">
+            <i></i>
+            Running balance
+          </span>
+        </div>
+
+        <svg
+          id="balance-chart"
+          viewBox="0 0 760 260"
+          role="img"
+          aria-label="Running balance during August">
+        </svg>
+      </article>
+
+      <article class="panel checker">
+        <p class="eyebrow">PAYMENT CHECK</p>
+        <h2>Can I afford this payment?</h2>
+
+        <label>
+          Current balance
+          <input
+            id="current"
+            type="number"
+            value="6297.21"
+            step="100">
+        </label>
+
+        <label>
+          Remaining protected spend
+          <input
+            id="reserved"
+            type="number"
+            value="3878.95"
+            min="0"
+            step="100">
+        </label>
+
+        <label>
+          Safety buffer
+          <input
+            id="buffer"
+            type="number"
+            value="2410"
+            min="0"
+            step="100">
+        </label>
+
+        <label>
+          Payment amount
+          <input
+            id="payment"
+            type="number"
+            value="675"
+            min="0"
+            step="50">
+        </label>
+
+        <button id="check-button">Check payment</button>
+
+        <div id="decision" class="decision"></div>
+        <div id="threshold-preview" class="threshold-preview"></div>
+        <div id="reward-preview" class="reward-preview"></div>
+      </article>
+    </section>
+
+    <section
+      class="panel what-if-panel"
+      aria-label="What-if closing balance scenario">
+
+      <div class="panel-heading">
+        <div>
+          <p class="eyebrow">WHAT-IF PROOF</p>
+          <h2>Which late-month debits changed the closing position?</h2>
+        </div>
+
+        <p class="rule">
+          Transparent arithmetic, not predicted behaviour
+        </p>
+      </div>
+
+      <div class="what-if-layout">
+        <div>
+          <p class="what-if-prompt">
+            Select transactions to remove from the statement scenario:
+          </p>
+
+          <div id="what-if-transactions"></div>
+
+          <button id="what-if-button" type="button">
+            Recalculate closing balance
+          </button>
+        </div>
+
+        <div class="what-if-result">
+          <div>
+            <span>Actual closing balance</span>
+            <strong id="what-if-actual">Loading</strong>
+          </div>
+
+          <div>
+            <span>Balance improvement</span>
+            <strong id="what-if-improvement">Loading</strong>
+          </div>
+
+          <div class="scenario">
+            <span>Scenario closing balance</span>
+            <strong id="what-if-scenario">Loading</strong>
+          </div>
+        </div>
+      </div>
+
+      <p id="what-if-caveat" class="grouped-note"></p>
+    </section>
+
+    <section class="panel">
+      <div class="panel-heading">
+        <div>
+          <p class="eyebrow">EXPLAINABLE RULES</p>
+          <h2>Priority decision moments</h2>
+        </div>
+
+        <p class="rule">
+          Balance - remaining protected spend - buffer
+        </p>
+      </div>
+
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>Date</th>
+              <th>Transaction</th>
+              <th>Amount</th>
+              <th>Safe to spend</th>
+              <th>Decision</th>
+            </tr>
+          </thead>
+          <tbody id="warnings"></tbody>
+        </table>
+      </div>
+
+      <p id="grouped-warning-note" class="grouped-note"></p>
+
+<details class="all-warnings-details">
+  <summary id="all-warnings-summary">
+    View all actionable events
+  </summary>
+
+  <div class="table-wrap">
+    <table>
+      <thead>
+        <tr>
+          <th>Date</th>
+          <th>Transaction</th>
+          <th>Amount</th>
+          <th>Safe to spend</th>
+          <th>Decision</th>
+        </tr>
+      </thead>
+
+      <tbody id="all-warnings"></tbody>
+    </table>
+  </div>
+</details>
+    </section>
+  </main>
+
+  <footer>
+    Assessment data is synthetic. This proof of concept uses rules only.
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

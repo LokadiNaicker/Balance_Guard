@@ -1,0 +1,1271 @@
+{
+  "account": {
+    "accountId": "ACC-ANON-00042",
+    "accountName": "Anonymised Everyday Account",
+    "accountType": "Transactional / Cheque",
+    "currency": "ZAR",
+    "openingBalance": {
+      "amount": 1875.4,
+      "currency": "ZAR"
+    },
+    "closingBalance": {
+      "amount": -2270.74,
+      "currency": "ZAR"
+    },
+    "statementPeriod": {
+      "from": "2026-08-01T00:00:00.000+0200",
+      "to": "2026-08-30T23:59:00.000+0200"
+    },
+    "note": "Fully anonymised, synthetic data generated for assessment purposes. No real customer."
+  },
+  "statementLines": [
+    {
+      "amount": {
+        "amount": 48200.0,
+        "currency": "ZAR"
+      },
+      "narrative": "SALARY DEPOSIT - EMPLOYER PAYROLL",
+      "postingDate": "2026-08-01T08:37:00.000+0200",
+      "transactionCategory": {
+        "transactionCategoryId": 100,
+        "transactionCategoryName": "Income / Salary"
+      },
+      "transactionDate": "2026-08-01T08:05:00.000+0200",
+      "transactionId": "TXN-2026080100001",
+      "transactionReference": "REF-INC-49753",
+      "transactionType": "CREDIT",
+      "valueDate": "2026-08-01T00:00:00.000+0200",
+      "runningBalance": {
+        "amount": 50075.4,
+        "currency": "ZAR"
+      }
+    },
+    {
+      "amount": {
+        "amount": -8200.0,
+        "currency": "ZAR"
+      },
+      "narrative": "DEBIT ORDER - HOME LOAN REPAYMENT",
+      "postingDate": "2026-08-01T09:15:00.000+0200",
+      "transactionCategory": {
+        "transactionCategoryId": 110,
+        "transactionCategoryName": "Fixed Commitments"
+      },
+      "transactionDate": "2026-08-01T09:00:00.000+0200",
+      "transactionId": "TXN-2026080100002",
+      "transactionReference": "REF-FIX-61912",
+      "transactionType": "DEBIT",
+      "valueDate": "2026-08-01T00:00:00.000+0200",
+      "runningBalance": {
+        "amount": 41875.4,
+        "currency": "ZAR"
+      }
+    },
+    {
+      "amount": {
+        "amount": -4350.0,
+        "currency": "ZAR"
+      },
+      "narrative": "DEBIT ORDER - VEHICLE FINANCE",
+      "postingDate": "2026-08-01T10:08:00.000+0200",
+      "transactionCategory": {
+        "transactionCategoryId": 110,
+        "transactionCategoryName": "Fixed Commitments"
+      },
+      "transactionDate": "2026-08-01T09:05:00.000+0200",
+      "transactionId": "TXN-2026080100003",
+      "transactionReference": "REF-FIX-30312",
+      "transactionType": "DEBIT",
+      "valueDate": "2026-08-01T00:00:00.000+0200",
+      "runningBalance": {
+        "amount": 37525.4,
+        "currency": "ZAR"
+      }
+    },
+    {
+      "amount": {
+        "amount": -135.0,
+        "currency": "ZAR"
+      },
+      "narrative": "MONTHLY ACCOUNT ADMIN FEE",
+      "postingDate": "2026-08-02T06:23:00.000+0200",
+      "transactionCategory": {
+        "transactionCategoryId": 112,
+        "transactionCategoryName": "Bank Fees"
+      },
+      "transactionDate": "2026-08-02T06:00:00.000+0200",
+      "transactionId": "TXN-2026080200052",
+      "transactionReference": "REF-FEE-88057",
+      "transactionType": "DEBIT",
+      "valueDate": "2026-08-02T00:00:00.000+0200",
+      "runningBalance": {
+        "amount": 37390.4,
+        "currency": "ZAR"
+      }
+    },
+    {
+      "amount": {
+        "amount": -2650.0,
+        "currency": "ZAR"
+      },
+      "narrative": "DEBIT ORDER - MEDICAL AID",
+      "postingDate": "2026-08-02T06:43:00.000+0200",
+      "transactionCategory": {
+        "transactionCategoryId": 111,
+        "transactionCategoryName": "Debit Order"
+      },
+      "transactionDate": "2026-08-02T06:30:00.000+0200",
+      "transactionId": "TXN-2026080200004",
+      "transactionReference": "REF-DEB-18718",
+      "transactionType": "DEBIT",
+      "valueDate": "2026-08-02T00:00:00.000+0200",
+      "runningBalance": {
+        "amount": 34740.4,
+        "currency": "ZAR"
+      }
+    },
+    {
+      "amount": {
+        "amount": -2000.0,
+        "currency": "ZAR"
+      },
+      "narrative": "TRANSFER TO SAVINGS POCKET",
+      "postingDate": "2026-08-02T19:13:00.000+0200",
+      "transactionCategory": {
+        "transactionCategoryId": 104,
+        "transactionCategoryName": "Transfers"
+      },
+      "transactionDate": "2026-08-02T18:30:00.000+0200",
+      "transactionId": "TXN-2026080200029",
+      "transactionReference": "REF-TRA-93156",
+      "transactionType": "DEBIT",
+      "valueDate": "2026-08-02T00:00:00.000+0200",
+      "runningBalance": {
+        "amount": 32740.4,
+        "currency": "ZAR"
+      }
+    },
+    {
+      "amount": {
+        "amount": -1245.6,
+        "currency": "ZAR"
+      },
+      "narrative": "CARD PURCHASE - WOOLWORTHS",
+      "postingDate": "2026-08-02T19:27:00.000+0200",
+      "transactionCategory": {
+        "transactionCategoryId": 101,
+        "transactionCategoryName": "Groceries"
+      },
+      "transactionDate": "2026-08-02T18:51:00.000+0200",
+      "transactionId": "TXN-2026080200013",
+      "transactionReference": "REF-GRO-35353",
+      "transactionType": "DEBIT",
+      "valueDate": "2026-08-02T00:00:00.000+0200",
+      "runningBalance": {
+        "amount": 31494.8,
+        "currency": "ZAR"
+      }
+    },
+    {
+      "amount": {
+        "amount": -680.0,
+        "currency": "ZAR"
+      },
+      "narrative": "DEBIT ORDER - LIFE INSURANCE",
+      "postingDate": "2026-08-03T06:34:00.000+0200",
+      "transactionCategory": {
+        "transactionCategoryId": 111,
+        "transactionCategoryName": "Debit Order"
+      },
+      "transactionDate": "2026-08-03T06:30:00.000+0200",
+      "transactionId": "TXN-2026080300005",
+      "transactionReference": "REF-DEB-62637",
+      "transactionType": "DEBIT",
+      "valueDate": "2026-08-03T00:00:00.000+0200",
+      "runningBalance": {
+        "amount": 30814.8,
+        "currency": "ZAR"
+      }
+    },
+    {
+      "amount": {
+        "amount": -850.0,
+        "currency": "ZAR"
+      },
+      "narrative": "CARD PURCHASE - FUEL STATION",
+      "postingDate": "2026-08-03T08:50:00.000+0200",
+      "transactionCategory": {
+        "transactionCategoryId": 102,
+        "transactionCategoryName": "Transport"
+      },
+      "transactionDate": "2026-08-03T08:28:00.000+0200",
+      "transactionId": "TXN-2026080300021",
+      "transactionReference": "REF-TRA-40569",
+      "transactionType": "DEBIT",
+      "valueDate": "2026-08-03T00:00:00.000+0200",
+      "runningBalance": {
+        "amount": 29964.8,
+        "currency": "ZAR"
+      }
+    },
+    {
+      "amount": {
+        "amount": -159.0,
+        "currency": "ZAR"
+      },
+      "narrative": "SUBSCRIPTION - STREAMING SERVICE",
+      "postingDate": "2026-08-03T12:58:00.000+0200",
+      "transactionCategory": {
+        "transactionCategoryId": 103,
+        "transactionCategoryName": "Subscriptions"
+      },
+      "transactionDate": "2026-08-03T12:10:00.000+0200",
+      "transactionId": "TXN-2026080300009",
+      "transactionReference": "REF-SUB-46265",
+      "transactionType": "DEBIT",
+      "valueDate": "2026-08-03T00:00:00.000+0200",
+      "runningBalance": {
+        "amount": 29805.8,
+        "currency": "ZAR"
+      }
+    },
+    {
+      "amount": {
+        "amount": -799.0,
+        "currency": "ZAR"
+      },
+      "narrative": "DEBIT ORDER - CELLPHONE CONTRACT",
+      "postingDate": "2026-08-04T08:12:00.000+0200",
+      "transactionCategory": {
+        "transactionCategoryId": 111,
+        "transactionCategoryName": "Debit Order"
+      },
+      "transactionDate": "2026-08-04T07:00:00.000+0200",
+      "transactionId": "TXN-2026080400006",
+      "transactionReference": "REF-DEB-47929",
+      "transactionType": "DEBIT",
+      "valueDate": "2026-08-04T00:00:00.000+0200",
+      "runningBalance": {
+        "amount": 29006.8,
+        "currency": "ZAR"
+      }
+    },
+    {
+      "amount": {
+        "amount": -1500.0,
+        "currency": "ZAR"
+      },
+      "narrative": "TRANSFER TO BENEFICIARY - FAMILY SUPPORT",
+      "postingDate": "2026-08-04T20:13:00.000+0200",
+      "transactionCategory": {
+        "transactionCategoryId": 104,
+        "transactionCategoryName": "Transfers"
+      },
+      "transactionDate": "2026-08-04T19:00:00.000+0200",
+      "transactionId": "TXN-2026080400030",
+      "transactionReference": "REF-TRA-36045",
+      "transactionType": "DEBIT",
+      "valueDate": "2026-08-04T00:00:00.000+0200",
+      "runningBalance": {
+        "amount": 27506.8,
+        "currency": "ZAR"
+      }
+    },
+    {
+      "amount": {
+        "amount": -245.0,
+        "currency": "ZAR"
+      },
+      "narrative": "CARD PURCHASE - RESTAURANT",
+      "postingDate": "2026-08-04T22:43:00.000+0200",
+      "transactionCategory": {
+        "transactionCategoryId": 107,
+        "transactionCategoryName": "Discretionary Spending"
+      },
+      "transactionDate": "2026-08-04T22:05:00.000+0200",
+      "transactionId": "TXN-2026080400039",
+      "transactionReference": "REF-DIS-98501",
+      "transactionType": "DEBIT",
+      "valueDate": "2026-08-04T00:00:00.000+0200",
+      "runningBalance": {
+        "amount": 27261.8,
+        "currency": "ZAR"
+      }
+    },
+    {
+      "amount": {
+        "amount": -499.0,
+        "currency": "ZAR"
+      },
+      "narrative": "DEBIT ORDER - GYM MEMBERSHIP",
+      "postingDate": "2026-08-05T07:09:00.000+0200",
+      "transactionCategory": {
+        "transactionCategoryId": 111,
+        "transactionCategoryName": "Debit Order"
+      },
+      "transactionDate": "2026-08-05T07:00:00.000+0200",
+      "transactionId": "TXN-2026080500007",
+      "transactionReference": "REF-DEB-39088",
+      "transactionType": "DEBIT",
+      "valueDate": "2026-08-05T00:00:00.000+0200",
+      "runningBalance": {
+        "amount": 26762.8,
+        "currency": "ZAR"
+      }
+    },
+    {
+      "amount": {
+        "amount": -1000.0,
+        "currency": "ZAR"
+      },
+      "narrative": "ATM CASH WITHDRAWAL",
+      "postingDate": "2026-08-05T13:29:00.000+0200",
+      "transactionCategory": {
+        "transactionCategoryId": 105,
+        "transactionCategoryName": "Cash Withdrawal"
+      },
+      "transactionDate": "2026-08-05T13:20:00.000+0200",
+      "transactionId": "TXN-2026080500032",
+      "transactionReference": "REF-CAS-39998",
+      "transactionType": "DEBIT",
+      "valueDate": "2026-08-05T00:00:00.000+0200",
+      "runningBalance": {
+        "amount": 25762.8,
+        "currency": "ZAR"
+      }
+    },
+    {
+      "amount": {
+        "amount": -35.0,
+        "currency": "ZAR"
+      },
+      "narrative": "CASH WITHDRAWAL FEE",
+      "postingDate": "2026-08-05T14:49:00.000+0200",
+      "transactionCategory": {
+        "transactionCategoryId": 112,
+        "transactionCategoryName": "Bank Fees"
+      },
+      "transactionDate": "2026-08-05T13:21:00.000+0200",
+      "transactionId": "TXN-2026080500053",
+      "transactionReference": "REF-FEE-29613",
+      "transactionType": "DEBIT",
+      "valueDate": "2026-08-05T00:00:00.000+0200",
+      "runningBalance": {
+        "amount": 25727.8,
+        "currency": "ZAR"
+      }
+    },
+    {
+      "amount": {
+        "amount": -1120.0,
+        "currency": "ZAR"
+      },
+      "narrative": "DEBIT ORDER - SHORT-TERM INSURANCE",
+      "postingDate": "2026-08-06T07:53:00.000+0200",
+      "transactionCategory": {
+        "transactionCategoryId": 111,
+        "transactionCategoryName": "Debit Order"
+      },
+      "transactionDate": "2026-08-06T06:45:00.000+0200",
+      "transactionId": "TXN-2026080600008",
+      "transactionReference": "REF-DEB-80343",
+      "transactionType": "DEBIT",
+      "valueDate": "2026-08-06T00:00:00.000+0200",
+      "runningBalance": {
+        "amount": 24607.8,
+        "currency": "ZAR"
+      }
+    },
+    {
+      "amount": {
+        "amount": -689.0,
+        "currency": "ZAR"
+      },
+      "narrative": "ONLINE PURCHASE - TAKEALOT",
+      "postingDate": "2026-08-06T21:47:00.000+0200",
+      "transactionCategory": {
+        "transactionCategoryId": 106,
+        "transactionCategoryName": "Online Purchases"
+      },
+      "transactionDate": "2026-08-06T21:30:00.000+0200",
+      "transactionId": "TXN-2026080600035",
+      "transactionReference": "REF-ONL-53393",
+      "transactionType": "DEBIT",
+      "valueDate": "2026-08-06T00:00:00.000+0200",
+      "runningBalance": {
+        "amount": 23918.8,
+        "currency": "ZAR"
+      }
+    },
+    {
+      "amount": {
+        "amount": -58.0,
+        "currency": "ZAR"
+      },
+      "narrative": "CARD PURCHASE - COFFEE SHOP",
+      "postingDate": "2026-08-07T16:44:00.000+0200",
+      "transactionCategory": {
+        "transactionCategoryId": 107,
+        "transactionCategoryName": "Discretionary Spending"
+      },
+      "transactionDate": "2026-08-07T16:01:00.000+0200",
+      "transactionId": "TXN-2026080700040",
+      "transactionReference": "REF-DIS-47879",
+      "transactionType": "DEBIT",
+      "valueDate": "2026-08-07T00:00:00.000+0200",
+      "runningBalance": {
+        "amount": 23860.8,
+        "currency": "ZAR"
+      }
+    },
+    {
+      "amount": {
+        "amount": -980.25,
+        "currency": "ZAR"
+      },
+      "narrative": "CARD PURCHASE - WOOLWORTHS",
+      "postingDate": "2026-08-07T17:58:00.000+0200",
+      "transactionCategory": {
+        "transactionCategoryId": 101,
+        "transactionCategoryName": "Groceries"
+      },
+      "transactionDate": "2026-08-07T17:19:00.000+0200",
+      "transactionId": "TXN-2026080700014",
+      "transactionReference": "REF-GRO-92178",
+      "transactionType": "DEBIT",
+      "valueDate": "2026-08-07T00:00:00.000+0200",
+      "runningBalance": {
+        "amount": 22880.55,
+        "currency": "ZAR"
+      }
+    },
+    {
+      "amount": {
+        "amount": -92.0,
+        "currency": "ZAR"
+      },
+      "narrative": "CARD PURCHASE - E-TOLL / TRANSPORT",
+      "postingDate": "2026-08-08T08:23:00.000+0200",
+      "transactionCategory": {
+        "transactionCategoryId": 102,
+        "transactionCategoryName": "Transport"
+      },
+      "transactionDate": "2026-08-08T08:16:00.000+0200",
+      "transactionId": "TXN-2026080800022",
+      "transactionReference": "REF-TRA-20626",
+      "transactionType": "DEBIT",
+      "valueDate": "2026-08-08T00:00:00.000+0200",
+      "runningBalance": {
+        "amount": 22788.55,
+        "currency": "ZAR"
+      }
+    },
+    {
+      "amount": {
+        "amount": -320.0,
+        "currency": "ZAR"
+      },
+      "narrative": "CARD PURCHASE - FAST FOOD",
+      "postingDate": "2026-08-09T17:34:00.000+0200",
+      "transactionCategory": {
+        "transactionCategoryId": 107,
+        "transactionCategoryName": "Discretionary Spending"
+      },
+      "transactionDate": "2026-08-09T16:09:00.000+0200",
+      "transactionId": "TXN-2026080900041",
+      "transactionReference": "REF-DIS-63795",
+      "transactionType": "DEBIT",
+      "valueDate": "2026-08-09T00:00:00.000+0200",
+      "runningBalance": {
+        "amount": 22468.55,
+        "currency": "ZAR"
+      }
+    },
+    {
+      "amount": {
+        "amount": -410.15,
+        "currency": "ZAR"
+      },
+      "narrative": "CARD PURCHASE - WOOLWORTHS",
+      "postingDate": "2026-08-09T19:24:00.000+0200",
+      "transactionCategory": {
+        "transactionCategoryId": 101,
+        "transactionCategoryName": "Groceries"
+      },
+      "transactionDate": "2026-08-09T18:05:00.000+0200",
+      "transactionId": "TXN-2026080900015",
+      "transactionReference": "REF-GRO-54224",
+      "transactionType": "DEBIT",
+      "valueDate": "2026-08-09T00:00:00.000+0200",
+      "runningBalance": {
+        "amount": 22058.4,
+        "currency": "ZAR"
+      }
+    },
+    {
+      "amount": {
+        "amount": -6499.0,
+        "currency": "ZAR"
+      },
+      "narrative": "CARD PURCHASE - FURNITURE STORE (ONCE-OFF)",
+      "postingDate": "2026-08-10T15:56:00.000+0200",
+      "transactionCategory": {
+        "transactionCategoryId": 108,
+        "transactionCategoryName": "Once-off Large Purchase"
+      },
+      "transactionDate": "2026-08-10T15:00:00.000+0200",
+      "transactionId": "TXN-2026081000049",
+      "transactionReference": "REF-LAR-37252",
+      "transactionType": "DEBIT",
+      "valueDate": "2026-08-10T00:00:00.000+0200",
+      "disclaimer": "Large-value transaction; instant EFT may reflect within 24 hours",
+      "runningBalance": {
+        "amount": 15559.4,
+        "currency": "ZAR"
+      }
+    },
+    {
+      "amount": {
+        "amount": -59.99,
+        "currency": "ZAR"
+      },
+      "narrative": "SUBSCRIPTION - MUSIC APP",
+      "postingDate": "2026-08-10T20:39:00.000+0200",
+      "transactionCategory": {
+        "transactionCategoryId": 103,
+        "transactionCategoryName": "Subscriptions"
+      },
+      "transactionDate": "2026-08-10T20:15:00.000+0200",
+      "transactionId": "TXN-2026081000010",
+      "transactionReference": "REF-SUB-23917",
+      "transactionType": "DEBIT",
+      "valueDate": "2026-08-10T00:00:00.000+0200",
+      "runningBalance": {
+        "amount": 15499.41,
+        "currency": "ZAR"
+      }
+    },
+    {
+      "amount": {
+        "amount": -129.0,
+        "currency": "ZAR"
+      },
+      "narrative": "ONLINE PURCHASE - APP STORE",
+      "postingDate": "2026-08-11T22:39:00.000+0200",
+      "transactionCategory": {
+        "transactionCategoryId": 106,
+        "transactionCategoryName": "Online Purchases"
+      },
+      "transactionDate": "2026-08-11T22:15:00.000+0200",
+      "transactionId": "TXN-2026081100036",
+      "transactionReference": "REF-ONL-48132",
+      "transactionType": "DEBIT",
+      "valueDate": "2026-08-11T00:00:00.000+0200",
+      "runningBalance": {
+        "amount": 15370.41,
+        "currency": "ZAR"
+      }
+    },
+    {
+      "amount": {
+        "amount": -880.0,
+        "currency": "ZAR"
+      },
+      "narrative": "CARD PURCHASE - FUEL STATION",
+      "postingDate": "2026-08-12T08:51:00.000+0200",
+      "transactionCategory": {
+        "transactionCategoryId": 102,
+        "transactionCategoryName": "Transport"
+      },
+      "transactionDate": "2026-08-12T07:29:00.000+0200",
+      "transactionId": "TXN-2026081200023",
+      "transactionReference": "REF-TRA-46756",
+      "transactionType": "DEBIT",
+      "valueDate": "2026-08-12T00:00:00.000+0200",
+      "runningBalance": {
+        "amount": 14490.41,
+        "currency": "ZAR"
+      }
+    },
+    {
+      "amount": {
+        "amount": -140.0,
+        "currency": "ZAR"
+      },
+      "narrative": "CARD PURCHASE - COFFEE SHOP",
+      "postingDate": "2026-08-12T20:54:00.000+0200",
+      "transactionCategory": {
+        "transactionCategoryId": 107,
+        "transactionCategoryName": "Discretionary Spending"
+      },
+      "transactionDate": "2026-08-12T20:43:00.000+0200",
+      "transactionId": "TXN-2026081200042",
+      "transactionReference": "REF-DIS-48457",
+      "transactionType": "DEBIT",
+      "valueDate": "2026-08-12T00:00:00.000+0200",
+      "runningBalance": {
+        "amount": 14350.41,
+        "currency": "ZAR"
+      }
+    },
+    {
+      "amount": {
+        "amount": 689.0,
+        "currency": "ZAR"
+      },
+      "narrative": "REFUND - ONLINE PURCHASE RETURN",
+      "postingDate": "2026-08-13T10:46:00.000+0200",
+      "transactionCategory": {
+        "transactionCategoryId": 109,
+        "transactionCategoryName": "Refund / Reversal"
+      },
+      "transactionDate": "2026-08-13T10:30:00.000+0200",
+      "transactionId": "TXN-2026081300050",
+      "transactionReference": "REF-REF-17777",
+      "transactionType": "CREDIT",
+      "valueDate": "2026-08-13T00:00:00.000+0200",
+      "disclaimer": "Refund reflects the reversal of TXN posted on a prior date",
+      "runningBalance": {
+        "amount": 15039.41,
+        "currency": "ZAR"
+      }
+    },
+    {
+      "amount": {
+        "amount": -600.0,
+        "currency": "ZAR"
+      },
+      "narrative": "ATM CASH WITHDRAWAL",
+      "postingDate": "2026-08-13T18:22:00.000+0200",
+      "transactionCategory": {
+        "transactionCategoryId": 105,
+        "transactionCategoryName": "Cash Withdrawal"
+      },
+      "transactionDate": "2026-08-13T17:45:00.000+0200",
+      "transactionId": "TXN-2026081300033",
+      "transactionReference": "REF-CAS-86310",
+      "transactionType": "DEBIT",
+      "valueDate": "2026-08-13T00:00:00.000+0200",
+      "runningBalance": {
+        "amount": 14439.41,
+        "currency": "ZAR"
+      }
+    },
+    {
+      "amount": {
+        "amount": -22.0,
+        "currency": "ZAR"
+      },
+      "narrative": "CASH WITHDRAWAL FEE",
+      "postingDate": "2026-08-13T19:05:00.000+0200",
+      "transactionCategory": {
+        "transactionCategoryId": 112,
+        "transactionCategoryName": "Bank Fees"
+      },
+      "transactionDate": "2026-08-13T17:46:00.000+0200",
+      "transactionId": "TXN-2026081300054",
+      "transactionReference": "REF-FEE-15359",
+      "transactionType": "DEBIT",
+      "valueDate": "2026-08-13T00:00:00.000+0200",
+      "runningBalance": {
+        "amount": 14417.41,
+        "currency": "ZAR"
+      }
+    },
+    {
+      "amount": {
+        "amount": -1620.8,
+        "currency": "ZAR"
+      },
+      "narrative": "CARD PURCHASE - WOOLWORTHS",
+      "postingDate": "2026-08-14T20:05:00.000+0200",
+      "transactionCategory": {
+        "transactionCategoryId": 101,
+        "transactionCategoryName": "Groceries"
+      },
+      "transactionDate": "2026-08-14T19:32:00.000+0200",
+      "transactionId": "TXN-2026081400016",
+      "transactionReference": "REF-GRO-33303",
+      "transactionType": "DEBIT",
+      "valueDate": "2026-08-14T00:00:00.000+0200",
+      "runningBalance": {
+        "amount": 12796.61,
+        "currency": "ZAR"
+      }
+    },
+    {
+      "amount": {
+        "amount": -410.0,
+        "currency": "ZAR"
+      },
+      "narrative": "CARD PURCHASE - RESTAURANT",
+      "postingDate": "2026-08-14T21:10:00.000+0200",
+      "transactionCategory": {
+        "transactionCategoryId": 107,
+        "transactionCategoryName": "Discretionary Spending"
+      },
+      "transactionDate": "2026-08-14T20:12:00.000+0200",
+      "transactionId": "TXN-2026081400043",
+      "transactionReference": "REF-DIS-48272",
+      "transactionType": "DEBIT",
+      "valueDate": "2026-08-14T00:00:00.000+0200",
+      "runningBalance": {
+        "amount": 12386.61,
+        "currency": "ZAR"
+      }
+    },
+    {
+      "amount": {
+        "amount": -1899.0,
+        "currency": "ZAR"
+      },
+      "narrative": "CARD PURCHASE - INTERNATIONAL ONLINE (UNRECOGNISED MERCHANT)",
+      "postingDate": "2026-08-15T03:04:00.000+0200",
+      "transactionCategory": {
+        "transactionCategoryId": 199,
+        "transactionCategoryName": "Uncategorised / Unusual"
+      },
+      "transactionDate": "2026-08-15T02:47:00.000+0200",
+      "transactionId": "TXN-2026081500058",
+      "transactionReference": "REF-UNU-79368",
+      "transactionType": "DEBIT",
+      "valueDate": "2026-08-15T00:00:00.000+0200",
+      "disclaimer": "Foreign-currency conversion applied at point of sale",
+      "runningBalance": {
+        "amount": 10487.61,
+        "currency": "ZAR"
+      }
+    },
+    {
+      "amount": {
+        "amount": -92.0,
+        "currency": "ZAR"
+      },
+      "narrative": "CARD PURCHASE - E-TOLL / TRANSPORT",
+      "postingDate": "2026-08-15T10:58:00.000+0200",
+      "transactionCategory": {
+        "transactionCategoryId": 102,
+        "transactionCategoryName": "Transport"
+      },
+      "transactionDate": "2026-08-15T09:34:00.000+0200",
+      "transactionId": "TXN-2026081500024",
+      "transactionReference": "REF-TRA-71766",
+      "transactionType": "DEBIT",
+      "valueDate": "2026-08-15T00:00:00.000+0200",
+      "runningBalance": {
+        "amount": 10395.61,
+        "currency": "ZAR"
+      }
+    },
+    {
+      "amount": {
+        "amount": -10.0,
+        "currency": "ZAR"
+      },
+      "narrative": "IMMEDIATE PAYMENT FEE",
+      "postingDate": "2026-08-16T09:16:00.000+0200",
+      "transactionCategory": {
+        "transactionCategoryId": 112,
+        "transactionCategoryName": "Bank Fees"
+      },
+      "transactionDate": "2026-08-16T08:00:00.000+0200",
+      "transactionId": "TXN-2026081600056",
+      "transactionReference": "REF-FEE-42644",
+      "transactionType": "DEBIT",
+      "valueDate": "2026-08-16T00:00:00.000+0200",
+      "runningBalance": {
+        "amount": 10385.61,
+        "currency": "ZAR"
+      }
+    },
+    {
+      "amount": {
+        "amount": -305.4,
+        "currency": "ZAR"
+      },
+      "narrative": "CARD PURCHASE - WOOLWORTHS",
+      "postingDate": "2026-08-16T18:07:00.000+0200",
+      "transactionCategory": {
+        "transactionCategoryId": 101,
+        "transactionCategoryName": "Groceries"
+      },
+      "transactionDate": "2026-08-16T17:30:00.000+0200",
+      "transactionId": "TXN-2026081600017",
+      "transactionReference": "REF-GRO-21710",
+      "transactionType": "DEBIT",
+      "valueDate": "2026-08-16T00:00:00.000+0200",
+      "runningBalance": {
+        "amount": 10080.21,
+        "currency": "ZAR"
+      }
+    },
+    {
+      "amount": {
+        "amount": -49.0,
+        "currency": "ZAR"
+      },
+      "narrative": "SUBSCRIPTION - CLOUD STORAGE",
+      "postingDate": "2026-08-17T09:05:00.000+0200",
+      "transactionCategory": {
+        "transactionCategoryId": 103,
+        "transactionCategoryName": "Subscriptions"
+      },
+      "transactionDate": "2026-08-17T08:30:00.000+0200",
+      "transactionId": "TXN-2026081700011",
+      "transactionReference": "REF-SUB-38101",
+      "transactionType": "DEBIT",
+      "valueDate": "2026-08-17T00:00:00.000+0200",
+      "runningBalance": {
+        "amount": 10031.21,
+        "currency": "ZAR"
+      }
+    },
+    {
+      "amount": {
+        "amount": -1500.0,
+        "currency": "ZAR"
+      },
+      "narrative": "TRANSFER TO BENEFICIARY - FAMILY SUPPORT",
+      "postingDate": "2026-08-18T20:53:00.000+0200",
+      "transactionCategory": {
+        "transactionCategoryId": 104,
+        "transactionCategoryName": "Transfers"
+      },
+      "transactionDate": "2026-08-18T20:10:00.000+0200",
+      "transactionId": "TXN-2026081800031",
+      "transactionReference": "REF-TRA-23235",
+      "transactionType": "DEBIT",
+      "valueDate": "2026-08-18T00:00:00.000+0200",
+      "runningBalance": {
+        "amount": 8531.21,
+        "currency": "ZAR"
+      }
+    },
+    {
+      "amount": {
+        "amount": -905.0,
+        "currency": "ZAR"
+      },
+      "narrative": "CARD PURCHASE - FUEL STATION",
+      "postingDate": "2026-08-19T09:41:00.000+0200",
+      "transactionCategory": {
+        "transactionCategoryId": 102,
+        "transactionCategoryName": "Transport"
+      },
+      "transactionDate": "2026-08-19T09:21:00.000+0200",
+      "transactionId": "TXN-2026081900025",
+      "transactionReference": "REF-TRA-98313",
+      "transactionType": "DEBIT",
+      "valueDate": "2026-08-19T00:00:00.000+0200",
+      "runningBalance": {
+        "amount": 7626.21,
+        "currency": "ZAR"
+      }
+    },
+    {
+      "amount": {
+        "amount": -89.0,
+        "currency": "ZAR"
+      },
+      "narrative": "CARD PURCHASE - COFFEE SHOP",
+      "postingDate": "2026-08-19T14:06:00.000+0200",
+      "transactionCategory": {
+        "transactionCategoryId": 107,
+        "transactionCategoryName": "Discretionary Spending"
+      },
+      "transactionDate": "2026-08-19T13:16:00.000+0200",
+      "transactionId": "TXN-2026081900044",
+      "transactionReference": "REF-DIS-88487",
+      "transactionType": "DEBIT",
+      "valueDate": "2026-08-19T00:00:00.000+0200",
+      "runningBalance": {
+        "amount": 7537.21,
+        "currency": "ZAR"
+      }
+    },
+    {
+      "amount": {
+        "amount": -1240.0,
+        "currency": "ZAR"
+      },
+      "narrative": "ONLINE PURCHASE - CLOTHING RETAILER",
+      "postingDate": "2026-08-20T22:05:00.000+0200",
+      "transactionCategory": {
+        "transactionCategoryId": 106,
+        "transactionCategoryName": "Online Purchases"
+      },
+      "transactionDate": "2026-08-20T21:05:00.000+0200",
+      "transactionId": "TXN-2026082000037",
+      "transactionReference": "REF-ONL-13365",
+      "transactionType": "DEBIT",
+      "valueDate": "2026-08-20T00:00:00.000+0200",
+      "runningBalance": {
+        "amount": 6297.21,
+        "currency": "ZAR"
+      }
+    },
+    {
+      "amount": {
+        "amount": -675.0,
+        "currency": "ZAR"
+      },
+      "narrative": "CARD PURCHASE - BAR / NIGHT OUT",
+      "postingDate": "2026-08-21T14:36:00.000+0200",
+      "transactionCategory": {
+        "transactionCategoryId": 107,
+        "transactionCategoryName": "Discretionary Spending"
+      },
+      "transactionDate": "2026-08-21T13:21:00.000+0200",
+      "transactionId": "TXN-2026082100045",
+      "transactionReference": "REF-DIS-11231",
+      "transactionType": "DEBIT",
+      "valueDate": "2026-08-21T00:00:00.000+0200",
+      "runningBalance": {
+        "amount": 5622.21,
+        "currency": "ZAR"
+      }
+    },
+    {
+      "amount": {
+        "amount": -1130.75,
+        "currency": "ZAR"
+      },
+      "narrative": "CARD PURCHASE - WOOLWORTHS",
+      "postingDate": "2026-08-21T18:39:00.000+0200",
+      "transactionCategory": {
+        "transactionCategoryId": 101,
+        "transactionCategoryName": "Groceries"
+      },
+      "transactionDate": "2026-08-21T18:00:00.000+0200",
+      "transactionId": "TXN-2026082100018",
+      "transactionReference": "REF-GRO-85021",
+      "transactionType": "DEBIT",
+      "valueDate": "2026-08-21T00:00:00.000+0200",
+      "runningBalance": {
+        "amount": 4491.46,
+        "currency": "ZAR"
+      }
+    },
+    {
+      "amount": {
+        "amount": -92.0,
+        "currency": "ZAR"
+      },
+      "narrative": "CARD PURCHASE - E-TOLL / TRANSPORT",
+      "postingDate": "2026-08-22T07:58:00.000+0200",
+      "transactionCategory": {
+        "transactionCategoryId": 102,
+        "transactionCategoryName": "Transport"
+      },
+      "transactionDate": "2026-08-22T07:04:00.000+0200",
+      "transactionId": "TXN-2026082200026",
+      "transactionReference": "REF-TRA-36564",
+      "transactionType": "DEBIT",
+      "valueDate": "2026-08-22T00:00:00.000+0200",
+      "runningBalance": {
+        "amount": 4399.46,
+        "currency": "ZAR"
+      }
+    },
+    {
+      "amount": {
+        "amount": 499.0,
+        "currency": "ZAR"
+      },
+      "narrative": "REVERSAL - DUPLICATE DEBIT ORDER",
+      "postingDate": "2026-08-22T09:24:00.000+0200",
+      "transactionCategory": {
+        "transactionCategoryId": 109,
+        "transactionCategoryName": "Refund / Reversal"
+      },
+      "transactionDate": "2026-08-22T09:15:00.000+0200",
+      "transactionId": "TXN-2026082200051",
+      "transactionReference": "REF-REF-17244",
+      "transactionType": "CREDIT",
+      "valueDate": "2026-08-22T00:00:00.000+0200",
+      "runningBalance": {
+        "amount": 4898.46,
+        "currency": "ZAR"
+      }
+    },
+    {
+      "amount": {
+        "amount": -52.0,
+        "currency": "ZAR"
+      },
+      "narrative": "CARD PURCHASE - COFFEE SHOP",
+      "postingDate": "2026-08-23T17:02:00.000+0200",
+      "transactionCategory": {
+        "transactionCategoryId": 107,
+        "transactionCategoryName": "Discretionary Spending"
+      },
+      "transactionDate": "2026-08-23T16:02:00.000+0200",
+      "transactionId": "TXN-2026082300046",
+      "transactionReference": "REF-DIS-32225",
+      "transactionType": "DEBIT",
+      "valueDate": "2026-08-23T00:00:00.000+0200",
+      "runningBalance": {
+        "amount": 4846.46,
+        "currency": "ZAR"
+      }
+    },
+    {
+      "amount": {
+        "amount": -268.9,
+        "currency": "ZAR"
+      },
+      "narrative": "CARD PURCHASE - WOOLWORTHS",
+      "postingDate": "2026-08-23T20:01:00.000+0200",
+      "transactionCategory": {
+        "transactionCategoryId": 101,
+        "transactionCategoryName": "Groceries"
+      },
+      "transactionDate": "2026-08-23T18:54:00.000+0200",
+      "transactionId": "TXN-2026082300019",
+      "transactionReference": "REF-GRO-35575",
+      "transactionType": "DEBIT",
+      "valueDate": "2026-08-23T00:00:00.000+0200",
+      "runningBalance": {
+        "amount": 4577.56,
+        "currency": "ZAR"
+      }
+    },
+    {
+      "amount": {
+        "amount": -99.0,
+        "currency": "ZAR"
+      },
+      "narrative": "SUBSCRIPTION - NEWS DIGITAL",
+      "postingDate": "2026-08-24T07:45:00.000+0200",
+      "transactionCategory": {
+        "transactionCategoryId": 103,
+        "transactionCategoryName": "Subscriptions"
+      },
+      "transactionDate": "2026-08-24T07:40:00.000+0200",
+      "transactionId": "TXN-2026082400012",
+      "transactionReference": "REF-SUB-93976",
+      "transactionType": "DEBIT",
+      "valueDate": "2026-08-24T00:00:00.000+0200",
+      "runningBalance": {
+        "amount": 4478.56,
+        "currency": "ZAR"
+      }
+    },
+    {
+      "amount": {
+        "amount": -800.0,
+        "currency": "ZAR"
+      },
+      "narrative": "ATM CASH WITHDRAWAL",
+      "postingDate": "2026-08-25T13:25:00.000+0200",
+      "transactionCategory": {
+        "transactionCategoryId": 105,
+        "transactionCategoryName": "Cash Withdrawal"
+      },
+      "transactionDate": "2026-08-25T12:05:00.000+0200",
+      "transactionId": "TXN-2026082500034",
+      "transactionReference": "REF-CAS-41118",
+      "transactionType": "DEBIT",
+      "valueDate": "2026-08-25T00:00:00.000+0200",
+      "runningBalance": {
+        "amount": 3678.56,
+        "currency": "ZAR"
+      }
+    },
+    {
+      "amount": {
+        "amount": -29.0,
+        "currency": "ZAR"
+      },
+      "narrative": "CASH WITHDRAWAL FEE",
+      "postingDate": "2026-08-25T13:17:00.000+0200",
+      "transactionCategory": {
+        "transactionCategoryId": 112,
+        "transactionCategoryName": "Bank Fees"
+      },
+      "transactionDate": "2026-08-25T12:06:00.000+0200",
+      "transactionId": "TXN-2026082500055",
+      "transactionReference": "REF-FEE-74312",
+      "transactionType": "DEBIT",
+      "valueDate": "2026-08-25T00:00:00.000+0200",
+      "runningBalance": {
+        "amount": 3649.56,
+        "currency": "ZAR"
+      }
+    },
+    {
+      "amount": {
+        "amount": -870.0,
+        "currency": "ZAR"
+      },
+      "narrative": "CARD PURCHASE - FUEL STATION",
+      "postingDate": "2026-08-26T10:38:00.000+0200",
+      "transactionCategory": {
+        "transactionCategoryId": 102,
+        "transactionCategoryName": "Transport"
+      },
+      "transactionDate": "2026-08-26T09:40:00.000+0200",
+      "transactionId": "TXN-2026082600027",
+      "transactionReference": "REF-TRA-46215",
+      "transactionType": "DEBIT",
+      "valueDate": "2026-08-26T00:00:00.000+0200",
+      "runningBalance": {
+        "amount": 2779.56,
+        "currency": "ZAR"
+      }
+    },
+    {
+      "amount": {
+        "amount": -298.0,
+        "currency": "ZAR"
+      },
+      "narrative": "CARD PURCHASE - RESTAURANT",
+      "postingDate": "2026-08-26T17:38:00.000+0200",
+      "transactionCategory": {
+        "transactionCategoryId": 107,
+        "transactionCategoryName": "Discretionary Spending"
+      },
+      "transactionDate": "2026-08-26T16:50:00.000+0200",
+      "transactionId": "TXN-2026082600047",
+      "transactionReference": "REF-DIS-48054",
+      "transactionType": "DEBIT",
+      "valueDate": "2026-08-26T00:00:00.000+0200",
+      "runningBalance": {
+        "amount": 2481.56,
+        "currency": "ZAR"
+      }
+    },
+    {
+      "amount": {
+        "amount": -560.0,
+        "currency": "ZAR"
+      },
+      "narrative": "ONLINE PURCHASE - ELECTRONICS",
+      "postingDate": "2026-08-27T20:47:00.000+0200",
+      "transactionCategory": {
+        "transactionCategoryId": 106,
+        "transactionCategoryName": "Online Purchases"
+      },
+      "transactionDate": "2026-08-27T20:40:00.000+0200",
+      "transactionId": "TXN-2026082700038",
+      "transactionReference": "REF-ONL-56803",
+      "transactionType": "DEBIT",
+      "valueDate": "2026-08-27T00:00:00.000+0200",
+      "runningBalance": {
+        "amount": 1921.56,
+        "currency": "ZAR"
+      }
+    },
+    {
+      "amount": {
+        "amount": -1425.3,
+        "currency": "ZAR"
+      },
+      "narrative": "CARD PURCHASE - WOOLWORTHS",
+      "postingDate": "2026-08-28T20:45:00.000+0200",
+      "transactionCategory": {
+        "transactionCategoryId": 101,
+        "transactionCategoryName": "Groceries"
+      },
+      "transactionDate": "2026-08-28T19:27:00.000+0200",
+      "transactionId": "TXN-2026082800020",
+      "transactionReference": "REF-GRO-47775",
+      "transactionType": "DEBIT",
+      "valueDate": "2026-08-28T00:00:00.000+0200",
+      "runningBalance": {
+        "amount": 496.26,
+        "currency": "ZAR"
+      }
+    },
+    {
+      "amount": {
+        "amount": -115.0,
+        "currency": "ZAR"
+      },
+      "narrative": "CARD PURCHASE - FAST FOOD",
+      "postingDate": "2026-08-28T21:04:00.000+0200",
+      "transactionCategory": {
+        "transactionCategoryId": 107,
+        "transactionCategoryName": "Discretionary Spending"
+      },
+      "transactionDate": "2026-08-28T20:06:00.000+0200",
+      "transactionId": "TXN-2026082800048",
+      "transactionReference": "REF-DIS-37162",
+      "transactionType": "DEBIT",
+      "valueDate": "2026-08-28T00:00:00.000+0200",
+      "runningBalance": {
+        "amount": 381.26,
+        "currency": "ZAR"
+      }
+    },
+    {
+      "amount": {
+        "amount": -2500.0,
+        "currency": "ZAR"
+      },
+      "narrative": "CARD PURCHASE - GAMING / CRYPTO PLATFORM",
+      "postingDate": "2026-08-29T03:51:00.000+0200",
+      "transactionCategory": {
+        "transactionCategoryId": 199,
+        "transactionCategoryName": "Uncategorised / Unusual"
+      },
+      "transactionDate": "2026-08-29T03:12:00.000+0200",
+      "transactionId": "TXN-2026082900059",
+      "transactionReference": "REF-UNU-63650",
+      "transactionType": "DEBIT",
+      "valueDate": "2026-08-29T00:00:00.000+0200",
+      "runningBalance": {
+        "amount": -2118.74,
+        "currency": "ZAR"
+      }
+    },
+    {
+      "amount": {
+        "amount": -92.0,
+        "currency": "ZAR"
+      },
+      "narrative": "CARD PURCHASE - E-TOLL / TRANSPORT",
+      "postingDate": "2026-08-29T08:19:00.000+0200",
+      "transactionCategory": {
+        "transactionCategoryId": 102,
+        "transactionCategoryName": "Transport"
+      },
+      "transactionDate": "2026-08-29T07:22:00.000+0200",
+      "transactionId": "TXN-2026082900028",
+      "transactionReference": "REF-TRA-87171",
+      "transactionType": "DEBIT",
+      "valueDate": "2026-08-29T00:00:00.000+0200",
+      "runningBalance": {
+        "amount": -2210.74,
+        "currency": "ZAR"
+      }
+    },
+    {
+      "amount": {
+        "amount": -60.0,
+        "currency": "ZAR"
+      },
+      "narrative": "OVERDRAWN / LOW-BALANCE NOTICE FEE",
+      "postingDate": "2026-08-30T06:43:00.000+0200",
+      "transactionCategory": {
+        "transactionCategoryId": 112,
+        "transactionCategoryName": "Bank Fees"
+      },
+      "transactionDate": "2026-08-30T06:00:00.000+0200",
+      "transactionId": "TXN-2026083000057",
+      "transactionReference": "REF-FEE-14662",
+      "transactionType": "DEBIT",
+      "valueDate": "2026-08-30T00:00:00.000+0200",
+      "runningBalance": {
+        "amount": -2270.74,
+        "currency": "ZAR"
+      }
+    }
+  ]
+}
+
+
+
+
+
+
