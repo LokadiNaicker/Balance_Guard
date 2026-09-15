@@ -108,7 +108,7 @@ Alternatively, open a terminal in the extracted folder and run:
 python app.py
 ```
 
-Then open `http://127.0.0.1:8501`.
+Then open `http://127.0.0.1:8502`.
 
 ## Run the console demonstration
 
